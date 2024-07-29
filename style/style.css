@@ -5,6 +5,8 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     color: white;
+    margin:0;
+    padding: 0;
 }
 
 .top-header-section {
@@ -20,7 +22,6 @@ body {
 .parent {
     width: 1140px;
     margin: auto;
-
 }
 
 .Logo-bannar {
@@ -75,5 +76,11 @@ body {
     margin-left: -80px;
     margin-top: -120px;
     z-index: 1%;
-    background-color: red; */
+    background-color: red;
+} */
+
+.main-info{
+    background-color: #000000;
+    margin-top: -22px;
 }
+
