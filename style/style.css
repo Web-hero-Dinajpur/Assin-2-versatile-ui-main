@@ -131,3 +131,21 @@ body {
 .habits-bannar img{
     border-radius: 100%;
 }
+.run-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2828287e;
+    margin:auto;
+    width: 1040px;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.run-info{
+    color:white;
+    margin-left: 20px;
+}
+.run-section img{
+    max-width: 30%;
+    border-radius: 10px;
+}
