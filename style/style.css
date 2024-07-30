@@ -4,7 +4,6 @@
 body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;
     margin:0;
     padding: 0;
 }
@@ -149,3 +148,32 @@ body {
     max-width: 30%;
     border-radius: 10px;
 }
+.bmi-calculator{
+    background-color: #e1e1e12c;
+}
+
+.bmi-header{
+    color:white;
+    margin: auto;
+    width: 40%;
+    margin-top: 80px;
+}
+.bmi-info-form{
+    color:white;
+    display: flex;
+    width: 1040px;
+    margin:auto;
+    margin-top: 80px;
+    justify-content: space-between;
+    padding: 30px;
+}
+.bmi-table{
+    width: 50%;
+}
+table, th, td {
+    border: 1px solid #9696965a;
+    border-collapse: collapse;
+    padding: 8px;
+    font-size: 1rem;
+    color:#a6a6a6d1;
+  }
