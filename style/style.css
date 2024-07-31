@@ -177,3 +177,33 @@ table, th, td {
     font-size: 1rem;
     color:#a6a6a6d1;
   }
+
+  .form-display{
+    display: flex;
+  }
+input{
+    padding-right: 20%;
+    margin:10px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color:#44444490;
+    border:none;
+}
+.selectbox{
+    margin:10px;
+    padding: 3px 114px 7px 1px;
+    background-color:#44444490;
+    border-radius: 4px;
+    color:rgb(128, 128, 128);
+    border:none;
+}
+.active-box{
+    padding-right: 71%;
+    margin:10px;
+    margin-bottom: 25px;
+    background-color:#44444490;
+    border-radius: 4px;
+    color:rgb(128, 128, 128);
+    border:none;
+    padding: 3px 210px 7px 1px;
+}
