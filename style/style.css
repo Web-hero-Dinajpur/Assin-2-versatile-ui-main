@@ -73,30 +73,12 @@ body {
     font-size: 1rem;
     margin-left: 10px;
 }
-/* .Bannar-box img{
-    z-index: 0%;
-}
+/* 
 .badge{
     background-color: #acacac28;
     width: 190px;
     padding: 6px 16px;
     border-radius: 10px;
-}
-.badge1{
-    margin-left: 80px;
-    margin-top: 120px;
-    z-index: 1%;
-    background-color: red;
-}
-.badge2{
-    margin-left: -80px;
-    margin-top: -120px;
-    z-index: 1%;
-    background-color: red;
-} 
-
-.habit-info-box img{
-    border-radius: 100%;
 }*/
 
 .container{
@@ -177,7 +159,6 @@ table, th, td {
     font-size: 1rem;
     color:#a6a6a6d1;
   }
-
   .form-display{
     display: flex;
   }
@@ -207,7 +188,6 @@ input{
     border:none;
     padding: 3px 210px 7px 1px;
 }
-
 .gallary-section{
     color:white;
     width: 1040px;
@@ -233,7 +213,6 @@ input{
 .extra-section{
     background-color: #000000;
     color: white;
-
 }
 .extra-section-main{
     display: flex;
@@ -243,11 +222,13 @@ input{
     margin:auto;
     line-height: 2;
     padding-bottom: 80px;
+
 }
 .extra-section-main img{
     width: 50%;
     height: 500px;
     padding-right: 50px;
+    border-radius: 10px;
 }
 .extra-section-main p{
     color: #939393;
@@ -306,3 +287,62 @@ hr{
 .finish{
     padding: 30px 0px;
 }
+
+/* responsive css style tag  */
+
+@media (max-width: 376px) {
+    body{
+        background-color: black;
+        margin:0px;
+        padding:0px;
+    }
+    .display-flex, .habits-bannar, .run-section, .bmi-info-form, .form-display, .extra-section-main, .footer-parent-container{
+      flex-direction: column;
+    }
+    .nav-menu li {
+        display:none;
+    }
+    .run-section{
+        /* width: 100%; */
+        height: auto;
+        border-radius: 5px;
+        background-color: #96959530;
+    }
+    .run-section img{
+        max-width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .run-info {
+        color: white;
+        margin-left: 20px;
+        text-align: center;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .bmi-header{
+        width: 100%;
+    }
+    .gallary-size{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .gallary-size img {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+    .extra-section-main img{
+       display: none;
+    }
+    .about-info{
+        text-align: center;
+        margin: 40px;
+    }
+    footer{
+        background-color:black;
+    }
+  
+  }
