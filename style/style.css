@@ -230,6 +230,29 @@ input{
 .single-image-box{
     margin-bottom: 40px;
 }
+.extra-section{
+    background-color: #000000;
+    color: white;
+
+}
+.extra-section-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1040px;
+    margin:auto;
+    line-height: 2;
+    padding-bottom: 80px;
+}
+.extra-section-main img{
+    width: 50%;
+    height: 500px;
+    padding-right: 50px;
+}
+.extra-section-main p{
+    color: #939393;
+    text-align: justify;
+}
 .gallary-info{
     margin-top: -90px;
     margin-left: 15px;
