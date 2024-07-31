@@ -133,7 +133,7 @@ body {
 .run-section{
     display: flex;
     justify-content: space-between;
-    background-color: #2828287e;
+    background-color: #141414;
     margin:auto;
     width: 1040px;
     margin-top: 80px;
@@ -149,7 +149,7 @@ body {
     border-radius: 10px;
 }
 .bmi-calculator{
-    background-color: #e1e1e12c;
+    background-color: #141414;
 }
 
 .bmi-header{
@@ -186,24 +186,55 @@ input{
     margin:10px;
     padding: 5px;
     border-radius: 4px;
-    background-color:#44444490;
+    background-color:#3f3f3f5b;;
     border:none;
 }
 .selectbox{
     margin:10px;
     padding: 3px 114px 7px 1px;
-    background-color:#44444490;
+    background-color:#3f3f3f5b;;
     border-radius: 4px;
-    color:rgb(128, 128, 128);
+    color:rgb(163, 163, 163);
     border:none;
 }
 .active-box{
     padding-right: 71%;
     margin:10px;
     margin-bottom: 25px;
-    background-color:#44444490;
+    background-color:#3f3f3f5b;
     border-radius: 4px;
     color:rgb(128, 128, 128);
     border:none;
     padding: 3px 210px 7px 1px;
+}
+
+.gallary-section{
+    color:white;
+    width: 1040px;
+    margin:auto;
+    padding-bottom: 80px;
+}
+.gallary-size{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #141414;
+    padding: 15px 0px 0px 15px;
+    border-radius: 10px;
+}
+.gallary-size img{
+    width: 325px;
+    height: 272px;
+    border-radius: 10px;
+}
+.single-image-box{
+    margin-bottom: 40px;
+}
+.gallary-info{
+    margin-top: -90px;
+    margin-left: 15px;
+    line-height: 1px;
+}
+.gallary-info p{
+    color:#939393;
 }
