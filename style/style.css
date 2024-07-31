@@ -238,3 +238,48 @@ input{
 .gallary-info p{
     color:#939393;
 }
+footer{
+    background-color: #141414;
+    color:white;
+}
+.footer-parent-container{
+    width: 1040px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-chaild-info{
+   margin-top: 80px;
+   padding-bottom: 50px;
+}
+.footer-chaild-info h2{
+    color:#E6533C;
+    margin: 0;
+    font-size: 3rem;
+}
+.footer-chaild-info h3{
+    margin-left: 38px;
+    margin-bottom: 35px;
+}
+.footer-chaild-info p{
+    color:#b0b0b0;
+    line-height: 2;
+}
+.footer-chaild-info ul li{
+    list-style: none;
+    color:#b0b0b0;
+    line-height: 2;
+}
+.footer-container{
+    width: 1040px;
+    margin:auto;
+    color: #939393;
+    text-align:center;
+}
+hr{
+    border: 1px solid #939393;
+}
+.finish{
+    padding: 30px 0px;
+}
