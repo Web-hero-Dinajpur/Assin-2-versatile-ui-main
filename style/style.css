@@ -6,6 +6,13 @@ body {
     font-optical-sizing: auto;
     margin:0;
     padding: 0;
+
+}
+.small-manubar{
+    visibility: hidden;
+    color: white;
+    width: 70px;
+    font-size: 80px;
 }
 .top-header-section { 
     background-image: linear-gradient(#000000ec, #000000eb, #000000);
@@ -290,7 +297,7 @@ hr{
 
 /* responsive css style tag  */
 
-@media (max-width: 376px) {
+ @media (max-width: 376px){
     body{
         background-color: black;
         margin:0px;
@@ -299,11 +306,14 @@ hr{
     .display-flex, .habits-bannar, .run-section, .bmi-info-form, .form-display, .extra-section-main, .footer-parent-container{
       flex-direction: column;
     }
+
+    .small-manubar{
+        visibility: visible;
+    }
     .nav-menu li {
         display:none;
     }
     .run-section{
-        /* width: 100%; */
         height: auto;
         border-radius: 5px;
         background-color: #96959530;
@@ -339,10 +349,23 @@ hr{
     }
     .about-info{
         text-align: center;
-        margin: 40px;
+        padding: 100px;
     }
     footer{
         background-color:black;
+    }  
+    .bmi-parent-box{
+        flex-direction: column;
+        width: 700px;
+        margin-left: 200px;
+        overflow: hidden;
     }
-  
+  }
+  @media screen and (min-width: 376px), (max-width:990){
+    body{
+        background-color: black;
+    }
+    .bmi-parent-box{
+        background-color: black;
+    }
   }
