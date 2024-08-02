@@ -297,7 +297,7 @@ hr{
 
 /* responsive css style tag  */
 
- @media (max-width: 376px){
+ @media (max-width: 576px){
     body{
         background-color: black;
         margin:0px;
@@ -361,7 +361,7 @@ hr{
         overflow: hidden;
     }
   }
-  @media screen and (min-width: 376px), (max-width:990){
+  @media screen and (min-width: 576px), (max-width:990){
     body{
         background-color: black;
     }
